@@ -10,9 +10,7 @@ nav{
     margin-top: -5px;
     list-style: none;
 }
-nav a{
-    list-style: none;
-}
+
 .nav{
     color: purple;
 }
@@ -131,7 +129,12 @@ h3{
 .i{
     color: #22B2BD;
 }
-
+.line h1{
+    display: inline;
+}
+.p{
+    margin-left: 5%;
+}
 
 .pic2{
     padding: 1%;
@@ -184,10 +187,16 @@ h3{
 }
 .line{
     display: flex;
-    padding: 2%;
+    
+}
+line h2{
+    font-size: larger;
 }
 .line p{
     padding: 7%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     padding-top: 3px;
+    /* margin-left: 20%; */
 }
 .last{
     display: flex;
