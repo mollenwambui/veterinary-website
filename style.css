@@ -1,6 +1,6 @@
 body{
 padding: 0%;
-height: 1000vh;
+height: 600vh;
 background-color: #ECF9FD;
 
 }
@@ -8,6 +8,13 @@ nav{
     float: right;
     text-align: right;
     margin-top: -5px;
+    list-style: none;
+}
+nav a{
+    list-style: none;
+}
+.nav{
+    color: purple;
 }
 nav li{
     display: inline;
@@ -27,6 +34,10 @@ width: 400px;
 height: 400px;
 border: 45px solid #D3E3E9;
 
+}
+.com{
+    color: blue;
+    margin-left: 10%;
 }
 .pic img{
     margin-right:-6%;
@@ -59,14 +70,20 @@ h1{
     color: dimgrey;
 
 }
+.quotes{
+    color: blue;
+}
+.que{
+    color: blue;
+}
 .blue{
     border: 2px solid #22B2BD;
-    width: 120px;
-    height: 10px;
+    /* width: 120px;
+    height: 10px; */
     padding: 30px;
     color: whitesmoke;
     background-color: #22B2BD;
-    border-radius: 4px;
+    border-radius: 10px;
     margin-left: 120px;
    
 }
@@ -86,7 +103,7 @@ h3{
 
 }
 .sect2{
-    height: 18%;
+    /* height: 18%; */
 }
 .align{
     display: flex;
@@ -95,7 +112,7 @@ h3{
 .blueborder{
     border: 2px solid #22B2BD;
     width: 80px;
-    height: 10px;
+    /* height: 10px; */
     padding: 30px;
     color: whitesmoke;
     background-color: #22B2BD;
@@ -107,15 +124,18 @@ h3{
 
 .pic1{
     padding: 1%;
-   
+   font-size: 20px;
     background-color: #FFFFFF ;
     margin: 8%;
+}
+.i{
+    color: #22B2BD;
 }
 
 
 .pic2{
     padding: 1%;
-    
+    font-size: 20px;
     background-color: #FFFFFF ;
     margin: 8%;
    
@@ -124,26 +144,31 @@ h3{
     padding: 1%; 
     background-color: #FFFFFF ;
     margin: 8%;
-    
+    font-size: 20px;
 }
 .pic4{
     padding: 1%;
     background-color: #FFFFFF ;
     margin: 8%;
+    font-size: 20px;
 }
 .pic5{
     padding: 1%;
     background-color: #FFFFFF ;
     margin: 8%;
+    font-size: 20px;
 }
 .pic6{
     padding: 1%; 
     background-color: #FFFFFF ;
     margin: 8%;
+    font-size: 20px;
 }
 .magic{
     /* padding: 10%; */
     display: flex;
+    padding-bottom: 70px;
+    margin-bottom: 10%;
 }
 .docpic img{
     width: 490px;
@@ -171,20 +196,22 @@ h3{
 .wow1{
     padding: 55px;
     font-size: larger;
-    margin-left: 2%;
+    margin-left: 3%;
     margin-top: 2%;
-   height: 270px;
+    height: 370px;
     background-color: white;
+    width: 500px;
 }
 .wow2{
+    width: 500px;
     padding: 55px;
     font-size: larger;
     /* margin-right: -1%; */
-    margin-left: 14%;
+    margin-left: 3%;
   background-color: white;
-  height: 270px;
+  height: 370px;
   margin-bottom: 2%;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 .maledoc{
 
@@ -225,19 +252,22 @@ h3{
 .styling{
     text-align: center;
     padding-top: 70px;
+    /* border: 5px solid #22B2BD;
+   /* margin-right: 20%; */
+   /* margin-left: 20%;
+   background-color:#D3E3E9; */ 
 }
 .styling p{
-    border: 3px solid #D6F5FB ;
-    /* border-width: 7%; */
-   height: 30px;
-   background-color: white;
-   margin-left: 30%;
-   margin-right: 40%;
-   font-size: larger;
-    /* text-align: center; */
-    /* padding-top: 30px; */
-    /* width: 80%; */
-
+    font-size: 20px;
+    background-color: white;
+    width: 40%;
+    height: 10vh;
+    margin-left: 32%;
+    border-radius:15px ;
+    padding-top: 3%;
+}
+.email{
+    padding-top: 10px;
 }
 .done{
   /* background-color:  #D6F5FB; */
@@ -246,11 +276,14 @@ h3{
 .sub{
    
     background-color: blue;
-    padding: 2%;
+    padding: 3% 5%;
     margin-left: 38%;
     margin-top: -27%;
+    height: 60px;
+    border-radius: 10px;
     /* width: 10px; */
    /* padding-left: 50%; */
+
   
 }
 .footer{
@@ -268,6 +301,7 @@ h3{
 }
 .foot0{
     padding: 85px;
+    margin-left: 5%;
 }
 .wow1 img{
     border: 2px solid black;
@@ -314,6 +348,7 @@ margin-top: -20%;
 }
 #l{
     color: black;
+    
 }
 
 .secondp{
@@ -321,6 +356,8 @@ margin-top: -20%;
 }
 .one{
     color: blue
+    
+    
 }
 .two{
     color: blue;
