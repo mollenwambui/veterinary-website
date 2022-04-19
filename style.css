@@ -170,7 +170,7 @@ h3{
 .magic{
     /* padding: 10%; */
     display: flex;
-    padding-bottom: 70px;
+    padding-bottom: 200px;
     margin-bottom: 10%;
 }
 .docpic img{
@@ -251,6 +251,9 @@ line h2{
 }
 .text{
   padding: 7%;
+  margin-top: -7%;
+  padding-bottom: 150px;
+ 
 }
 .time{
     margin-bottom: 2px;
@@ -395,4 +398,9 @@ margin-top: -20%;
 .like{
     display: flex;
     
+}
+
+
+.lastt{
+    font-weight: bold;
 }
