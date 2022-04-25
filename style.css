@@ -1,6 +1,6 @@
 body{
 padding: 0%;
-height: 600vh;
+height: 300%;
 background-color: #ECF9FD;
 
 }
@@ -34,7 +34,7 @@ border: 45px solid #D3E3E9;
 
 }
 .com{
-    color: blue;
+    color: #231068;
     margin-left: 10%;
 }
 .pic img{
@@ -50,7 +50,24 @@ border: 45px solid #D3E3E9;
 .txt{
     margin-left: 120px;
     margin-top: -10%;
+
 }
+@media only screen and (max-width: 600px) {
+    .develop{
+       
+     display: flex;
+     flex-direction: column; 
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+
+    }
+    .pic{
+        margin-top: 5rem;
+        margin-left: -5rem;
+    }
+  }
+
 
 .first{
     /* background-color: #D6F5FB; */
@@ -81,12 +98,13 @@ h1{
     padding: 30px;
     color: whitesmoke;
     background-color: #22B2BD;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-left: 120px;
    
 }
 .i{
     padding: 5px;
+    padding-top: 3%;
 }
 .sect2{
    margin-top: 10%;
@@ -176,6 +194,7 @@ h3{
 .docpic img{
     width: 490px;
     height: 500px;
+    margin-left: 15%;
 }
 .rates img{
     margin-bottom: 60px;
@@ -253,6 +272,7 @@ line h2{
   padding: 7%;
   margin-top: -7%;
   padding-bottom: 150px;
+  margin-left: 5%;
  
 }
 .time{
@@ -329,7 +349,7 @@ line h2{
 }
 .bluu{
     margin-left: 80%;
-    color: #22B2BD;
+    color: #231068;
     font-size: 24px;
 }
 .sect2 h2{
